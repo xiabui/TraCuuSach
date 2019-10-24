@@ -59,7 +59,7 @@ namespace TraCuuSach
         {
             try
             {
-                string path = @"C:\Users\Bui Van Xia\source\repos\LapTrinhHuongDoiTuong\TraCuuSach\Data\NhaXuatBan.txt";
+                string path = @"C:\Users\Bui Van Xia\source\repos\TraCuuSach\TraCuuSach\Data\NhaXuatBan.txt";
                 listSach.DataSource = null;
                 textTotal.Clear();
                 NhaXuatBans = NhaXuatBan.DocDanhSachNhaXuatBanArr(path);
@@ -77,7 +77,7 @@ namespace TraCuuSach
         {
             try
             {
-                string path = @"C:\Users\Bui Van Xia\source\repos\LapTrinhHuongDoiTuong\TraCuuSach\Data\ChuDe.txt";
+                string path = @"C:\Users\Bui Van Xia\source\repos\TraCuuSach\TraCuuSach\Data\ChuDe.txt";
                 listSach.DataSource = null;
                 textTotal.Clear();
                 //XuatHoSoSachMoi();
@@ -103,7 +103,7 @@ namespace TraCuuSach
             try
             {
                 if (dsChuyenMuc.SelectedIndex == -1) return;
-                string path = @"C:\Users\Bui Van Xia\source\repos\LapTrinhHuongDoiTuong\TraCuuSach\Data\Sach.txt";
+                string path = @"C:\Users\Bui Van Xia\source\repos\TraCuuSach\TraCuuSach\Data\Sach.txt";
                 string id = dsChuyenMuc.SelectedValue.ToString();
                 if (radioChuDe.Checked)
                 {
